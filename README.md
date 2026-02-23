@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# API Test Blog
 
-## Getting Started
+A modern blog about **API testing** — manual and automation — built with Next.js 14, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## What's inside
+
+- **Manual API testing** — Postman, HTTP basics, writing tests and assertions
+- **REST Assured** — Java API automation with TestNG
+- **Cypress** — API testing with `cy.request()`, intercepts, fixtures
+- **Python** — API testing with `requests` and `pytest`
+- **Postman** — Collections, environments, Newman CLI, CI/CD
+- **100+ API test cases** — CRUD, auth, security, validation, and more
+
+## Tech stack
+
+- [Next.js 14](https://nextjs.org/) (App Router)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide React](https://lucide-react.dev/) (icons)
+
+## Getting started
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) (or the port shown in the terminal) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command        | Description              |
+|----------------|--------------------------|
+| `npm run dev`  | Start dev server         |
+| `npm run build`| Build for production    |
+| `npm run start`| Start production server  |
+| `npm run lint` | Run ESLint               |
 
-## Learn More
+## Author
 
-To learn more about Next.js, take a look at the following resources:
+**Andrew Amin**  
+[LinkedIn](https://www.linkedin.com/in/andrew-amin-48763a194/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
